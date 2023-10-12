@@ -1,0 +1,173 @@
+body{overflow-x: hidden;
+}
+
+.navbar{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   padding:0 3%;
+    background: orangered;
+}
+.logo{
+    font-size: 50px;
+    color: aqua;
+}
+
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    
+}
+.navbar ul li{
+    padding: 10px 60px;
+    position: relative;
+}
+.navbar ul li a{
+    font-size: 35px;
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bolder;
+    transition: all 0.3s;
+}
+
+.navbar ul li a:hover{
+
+background-color: rgb(195, 56, 14);
+color: gold;
+}
+.submenu{
+   
+}
+ .submenu{
+    display: block;
+     position: absolute;
+     top: 10%;
+     right: 60px;
+     background: rgb(189, 13, 13);
+
+}
+.submenu ul{
+    display: block;
+    margin: 10px;
+}
+
+.submenu ul li{
+    width: 150px;
+    padding: 10px;
+}
+.submenu ul li a{
+    color: rgb(232, 224, 224);
+    font-size: 25px;
+}
+.submenu ul li a:hover{
+    background-color: rgb(197, 10, 22);
+}
+
+
+
+
+
+.container{
+background-image: url(pics/IMG-20230206-WA0305.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.text p{
+    font-size: 60px;
+    color: rgb(218, 48, 6);
+  position: relative;
+  left: 20%;
+  top: 4%;
+font-weight: bolder;
+font-family: 'Times New Roman', Times, serif;
+}
+
+.image{
+    float: right;
+    width: 80%;
+}
+.ul{
+    font-size: 40px;
+    color: aliceblue;
+}
+.tg{
+    position: absolute;
+    width: 70%;
+   left: 15%; 
+}
+.footer{
+    background-color: rgb(18, 1, 35);
+    padding: 70px 0;
+    color: aliceblue;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-col{width: 25%;
+padding: 0 15px;
+
+}
+
+.footer-col h2{
+    font-size: 40px;
+    text-decoration: underline;
+    position: relative;
+    left: 25%;
+   
+    
+
+}
+.footer-col h2:hover{
+    color: orangered;
+}
+
+.footer-col ul p{
+    
+    font-size: 25px;
+    color: aliceblue;
+   
+}
+.footer-col ul p:hover{
+    color: rgb(231, 187, 13);
+}
+
+.nice{
+    position: relative;
+    width: 100%;
+    padding: 40px 10px;
+    left: 10%;
+}
+.img{
+   padding: 40px;
+}
+.sec2{
+    width: 100%;
+    height: 100vh;
+    background-image: url(pics/flyer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.yea{
+    position: relative;
+    left: 40%;
+    top: 10%;
+    font-size: 30px;
+   
+    
+}
+.yea ::placeholder{
+    font-size: 30px;
+}
+.yea input{
+
+font-size: 40PX;
+
+}
+.yeee{
+font: 80%;
+}
